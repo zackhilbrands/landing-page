@@ -1,0 +1,28 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    height: 72px;
+    color: white;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    font-weight: 900;
+}
+
+.links {
+    display: flex;
+    font-size: 18px;
+    gap: 24px;
+    align-items: center;
+}
